@@ -25,10 +25,10 @@ vertical-align: baseline;
     background-color: black;
     color: white;
     width: auto;
-    height:100px;
+    height:7rem;
     justify-content: center;
     font-family: 'Noto Sans TC', sans-serif;
-    font-size: 50px;
+    font-size: 4rem;
 
 }
 
@@ -43,8 +43,8 @@ vertical-align: baseline;
 
 .container .links a{
     display:flex;
-    width: 75px;
-    height: 100px;
+    width:4.5rem;
+    height: 6.25rem;
     background-color: gray;
     flex-wrap: wrap;
     
@@ -53,8 +53,8 @@ vertical-align: baseline;
 .projectme {
     display:flex;
     justify-content: center;
-    width:1400px;
-    height: 400px;
+    width:138rem;
+    height: 25rem;
     background-color:rgb(102, 96, 96);
     
 }
@@ -75,8 +75,8 @@ vertical-align: baseline;
 h2 {
 
     font-weight: bold;
-    font-size: 75px;
-    margin: 100px;
+    font-size:5.5rem;
+    margin: 8rem;
     font-family: 'Arimo', sans-serif;
     color:rgb(226, 220, 220);
 
@@ -95,8 +95,8 @@ h2 {
 
 .gallery img {
 
-    width:300px;
-    height:300px;
+    width:25.5rem;
+    height:25.5rem;
     border: 8px solid silver;
 }
 
@@ -105,7 +105,7 @@ h2 {
 .footer{
     display:flex;
     background-color: black;
-    height: 100px;
+    height:10rem;
     justify-content: center;
 }
 
@@ -121,18 +121,18 @@ h2 {
 }
 
 .footer img {
-    height:50px;
-    width: 50px;
-    margin-top: 20px;
+    height:4rem;
+    width: 5rem;
+    margin-top: 1rem;
 
 }
 
 button {
 
-    height:50px;
-    margin-top: 20px;
-    margin-left: 80px;
-    border-radius: 10px;
+    height:3rem;
+    margin-top:1rem;
+    margin-left: 7rem;
+    border-radius: 1rem;
 
 }
 
@@ -160,7 +160,7 @@ img:hover {
 
 @keyframes images{
 
-    100%{border-radius: 50px;;}
+    100%{border-radius: 4.5rem;}
 }
 
   

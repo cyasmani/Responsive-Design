@@ -25,10 +25,10 @@ vertical-align: baseline;
     background-color: black;
     color: white;
     width: auto;
-    height:100px;
+    height:7rem;
     justify-content: center;
     font-family: 'Noto Sans TC', sans-serif;
-    font-size: 50px;
+    font-size: 4rem;
 
 }
 
@@ -43,8 +43,8 @@ vertical-align: baseline;
 
 .container .links a{
     display:flex;
-    width: 75px;
-    height: 100px;
+    width:4.5rem;
+    height: 6.25rem;
     background-color: gray;
     flex-wrap: wrap;
     
@@ -53,8 +53,8 @@ vertical-align: baseline;
 .aboutme {
     display:flex;
     justify-content: center;
-    width:1400px;
-    height: 400px;
+    width:138rem;
+    height: 25rem;
     background-color:rgb(29, 29, 161);
     
 }
@@ -62,8 +62,8 @@ vertical-align: baseline;
 h2 {
 
     font-weight: bold;
-    font-size: 75px;
-    margin: 100px;
+    font-size:5.5rem;
+    margin: 8rem;
     font-family: 'Arimo', sans-serif;
     color:rgb(143, 140, 140);
 
@@ -79,9 +79,9 @@ h2 {
 
 img{
     
-    border: 10px solid black;
-    height:500px;
-    width:700px;
+    border: 0.5rem solid black;
+    height:40rem;
+    width:50rem;
 
 }
 
@@ -90,14 +90,26 @@ img:hover{
     animation-name: image;
     animation-duration: 5s;
 }
+@media(max-width:800px){
+    
+    .aboutme {
+        background-color:rgb(161, 45, 165);
+    }
+
+    img{
+        width: 35rem;
+        
+    }
+
+}
 
 @media(max-width:500px){
     .container .links a{
         width: 3.3rem;
         flex-wrap: nowrap;
     }
-    .projectme {
-                background-color:red;
+    .aboutme {
+                background-color:purple;
                 width: 28rem;
             }
     img{
@@ -108,11 +120,11 @@ img:hover{
 }
 
 @keyframes image{
-    25%{border-radius: 50px;}
-    45%{border-radius: 100px;}
-    65%{border-radius: 150px;}
-    85%{border-radius: 200px;}
-    100%{border-radius: 300px;}
+    25%{border-radius: 3rem;}
+    45%{border-radius: 7rem;}
+    65%{border-radius: 11rem;}
+    85%{border-radius: 15rem;}
+    100%{border-radius: 20rem;}
 
 }
 
@@ -125,10 +137,10 @@ img:hover{
 }
 
 .paragraph p{
-    width:700px;
+    width:70rem;
     font-family: 'Arimo', sans-serif;
-    margin: 5px;
-    line-height: 40px;
+    margin: 0.5rem;
+    line-height:2.5rem;
 }
 
 .paragraph:hover{
@@ -147,7 +159,7 @@ img:hover{
 .footer{
     display:flex;
     background-color: black;
-    height: 100px;
+    height:10rem;
     justify-content: center;
 }
 
@@ -163,18 +175,18 @@ img:hover{
 }
 
 .footer img {
-    height:50px;
-    width: 50px;
-    margin-top: 20px;
+    height:4rem;
+    width: 5rem;
+    margin-top: 1rem;
 
 }
 
 button {
 
-    height:50px;
-    margin-top: 20px;
-    margin-left: 80px;
-    border-radius: 10px;
+    height:3rem;
+    margin-top:1rem;
+    margin-left: 7rem;
+    border-radius: 1rem;
 
 }
 

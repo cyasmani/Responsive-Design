@@ -25,10 +25,10 @@ vertical-align: baseline;
     background-color: black;
     color: white;
     width: auto;
-    height:100px;
+    height:7rem;
     justify-content: center;
     font-family: 'Noto Sans TC', sans-serif;
-    font-size: 50px;
+    font-size: 4rem;
 
 }
 
@@ -43,8 +43,8 @@ vertical-align: baseline;
 
 .container .links a{
     display:flex;
-    width: 75px;
-    height: 100px;
+    width:4.5rem;
+    height: 6.25rem;
     background-color: gray;
     flex-wrap: wrap;
     
@@ -53,8 +53,8 @@ vertical-align: baseline;
 .contactme {
     display:flex;
     justify-content: center;
-    width:1400px;
-    height: 400px;
+    width:138rem;
+    height: 25rem;
     background-color:rgb(250, 186, 9);
     
 }
@@ -62,10 +62,23 @@ vertical-align: baseline;
 h2 {
 
     font-weight: bold;
-    font-size: 75px;
-    margin: 100px;
+    font-size:5.5rem;
+    margin: 8rem;
     font-family: 'Arimo', sans-serif;
     color:rgb(143, 140, 140);
+
+}
+
+@media(max-width:800px){
+    
+    .contactme {
+        background-color:rgb(161, 45, 165);
+    }
+
+    img{
+        width: 35rem;
+        
+    }
 
 }
 
@@ -75,7 +88,7 @@ h2 {
         flex-wrap: nowrap;
     }
     .contactme {
-                
+                background-color: plum;
                 width: 28rem;
             }
 
@@ -98,7 +111,7 @@ h2 {
 }
 .input p{
     color:white;
-    font-size: 30px;
+    font-size: 2.5rem;
 }
 
 
@@ -122,25 +135,24 @@ h3 {
 .footer{
     display:flex;
     background-color: black;
-    height: 180px;
+    height:10rem;
     justify-content: center;
     
 }
 
 .footer img {
-    height:50px;
-    width: 70px;
-    margin: 20px;
-    border:30px;
+    height:4rem;
+    width: 5rem;
+    margin-top: 1rem;
 
 }
 
 button {
 
-    height:50px;
-    margin-top: 20px;
-    margin-left: 80px;
-    border-radius: 10px;
+    height:3rem;
+    margin-top:1rem;
+    margin-left: 7rem;
+    border-radius: 1rem;
 
 }
 
