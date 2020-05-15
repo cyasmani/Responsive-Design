@@ -1,0 +1,269 @@
+/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+.portfolio {
+    display:flex;
+    background-color: black;
+    color: white;
+    width: auto;
+    height:100px;
+    justify-content: center;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 50px;
+
+}
+.portfolio:hover{
+    animation-name: portfolio;
+    animation-duration: 3s;
+}
+
+@keyframes portfolio{
+
+    25%{background-color:plum ;}
+    50%{background-color: rgb(240, 44, 240);}
+    75%{background-color:rebeccapurple ;}}
+ 
+
+
+.container {
+    display: flex;
+    flex-direction: row; 
+    
+}
+
+
+.container .links a{
+    display:flex;
+    width: 75px;
+    height: 100px;
+    background-color: gray;
+    flex-wrap: wrap;
+    
+}
+
+.name {
+    justify-content: center;
+    width:1400px;
+    height: 400px;
+    background-color: brown;
+    
+}
+
+.name h2:hover {
+
+    animation-name: name;
+    animation-duration: 5s;
+}
+
+@keyframes name {
+    0%{opacity:0;
+        color:white;}
+    25%{opacity:0.2;
+        color:silver}
+    50%{opacity:0.5;
+        color:rgb(158, 157, 157)}
+    75%{opacity:0.7;
+        color:rgb(133, 131, 131);}
+    100%{opacity:1;
+        color:rgb(71, 71, 71);}
+}
+
+h2 {
+
+    
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 75px;
+    justify-content: center;
+    margin: 100px;
+    font-family: 'Arimo', sans-serif;
+
+}
+
+@media(max-width:500px){
+    .container .links a{
+        width: 3.3rem;
+        flex-wrap: nowrap;
+    }
+    .name {
+                background-color:red;
+                width: 28rem;
+                flex-direction: wrap;
+                
+            }
+    .name h2{
+
+        font-size: 4rem;
+ 
+    }
+
+    .project-images img{
+        width: 25rem;
+    }
+    .project-images2 img{
+        width: 25rem;
+    }
+    .project-images3 img{
+        width: 25rem;
+    }
+    .project-images4 img{
+        width: 25rem;
+    }
+
+}
+
+.intro-header{
+    display:flex;
+    border: 2px solid black;
+    justify-content: center;
+    font-size: 45px;
+    font-family: 'Permanent Marker', cursive;
+    background-color: #ffa500;
+}
+
+.intro{
+
+    font-family: 'Noto Sans TC', sans-serif;
+    margin: 20px;
+    
+}
+
+.project-header {
+
+    display:flex;
+    border: 2px solid black;
+    justify-content: center;
+    font-size: 45px;
+    font-family: 'Permanent Marker', cursive;
+    background-color: #ffa500;
+
+}
+
+.project-images {
+    display: flex;
+    
+   
+}
+
+.project-images img {
+    
+    border: 3px solid black;
+
+   
+    
+}
+
+.project-images p:hover {
+    animation-name: paragraph;
+    animation-duration: 3s;
+    
+}
+@keyframes paragraph{
+    15%{font-size: 20px;}
+
+}
+
+.project-images2{
+
+    display:flex;
+    border: 3px solid black;
+
+    
+}
+
+
+
+.project-images2 p:hover {
+    animation-name: paragraph;
+    animation-duration: 3s;
+    
+} 
+
+
+    
+
+
+.project-images3{
+
+    display:flex;
+    border: 3px solid black;
+
+    
+}
+
+.project-images3 p:hover {
+    animation-name: paragraph;
+    animation-duration: 3s;
+    
+}
+
+.project-images4{
+
+    display:flex;
+    border: 3px solid black;
+
+    
+}
+
+.project-images4 p:hover {
+    animation-name: paragraph;
+    animation-duration: 3s;
+    
+}
+.footer{
+    display:flex;
+    background-color: black;
+    height: 100px;
+    justify-content: center;
+}
+
+
+.footer img {
+    height:50px;
+    width: 50px;
+    margin-top: 20px;
+
+}
+
+button {
+
+    height:50px;
+    margin-top: 20px;
+    margin-left: 80px;
+    border-radius: 10px;
+
+}
+
+button:hover{
+    animation-name: button;
+    animation-duration: 3s;
+
+}
+
+@keyframes button{
+
+    25%{background-color:rgb(161, 241, 161);}
+    50%{background-color:rgb(133, 241, 133);}
+    75%{background-color:rgb(33, 236, 33);}
+    100%{background-color:rgb(9, 104, 9);}
+
+}
